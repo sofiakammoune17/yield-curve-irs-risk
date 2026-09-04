@@ -46,7 +46,7 @@ python -m src.rates_risk
 pytest -q
 ```
 
-## Interview interpretation
+## Valuation and risk insights
 
 A payer swap pays fixed and receives floating. Its value generally increases when market rates rise because the contractual fixed rate becomes relatively cheaper. DV01 approximates the change in value for a one-basis-point parallel shift. Curve-shape scenarios complement DV01 because a single parallel sensitivity does not capture steepening or flattening risk.
 
