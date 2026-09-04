@@ -1,5 +1,7 @@
 # Yield Curve, Interest Rate Swap Pricing & Risk
 
+**Accès rapide pour les recruteurs :** [voir le code Python principal](yield_curve_irs_analysis.py) · [voir les tests](tests/test_rates_risk.py)
+
 Python case study covering zero-coupon curve construction, forward-rate extraction, vanilla interest-rate swap valuation and interest-rate risk analysis.
 
 ## Business objective
@@ -31,6 +33,7 @@ The fair fixed rate is obtained by dividing the floating-leg present value by th
 ## Repository structure
 
 ```text
+yield_curve_irs_analysis.py          Main Python file visible at repository root
 src/rates_risk.py          Curve, IRS pricing and risk engine
 tests/test_rates_risk.py   Financial-logic tests
 outputs/                   Generated reports and chart
